@@ -1,8 +1,10 @@
 # Custom
 data/
 .DS_Store
-hedwig/model_checkpoints
+baseline/hedwig/model_checkpoints
 *.pt
+baseline/hedwig/metrics*
+*.out
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

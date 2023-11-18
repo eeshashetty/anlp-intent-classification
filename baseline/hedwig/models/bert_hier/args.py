@@ -12,7 +12,7 @@ def get_args():
                                                                          'CongressionalHearing',
                                                                          'CongressionalHearingBinary', 'AAPD', 'IMDB',
                                                                          'Yelp2014'])
-    parser.add_argument('--save-path', type=str, default=os.path.join('model_checkpoints', 'bert'))
+    parser.add_argument('--save-path', type=str, default=os.path.join('model_checkpoints', 'bert-hier'))
     parser.add_argument('--cache-dir', default='cache', type=str)
     parser.add_argument('--trained-model', default=None, type=str)
     parser.add_argument('--fp16', action='store_true', help='use 16-bit floating point precision')

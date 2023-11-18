@@ -22,7 +22,7 @@ class BertHierarchicalEvaluator(object):
         self.processor = processor
         self.tokenizer = tokenizer
 
-        self.metrics_save_path = "metrics/bert_hier/metrics-train.csv"
+        self.metrics_save_path = "metrics/bert_hier/metrics-dev-roberta-annotator.csv"
 
         if split == 'train':
             self.eval_examples = self.processor.get_train_examples(args.data_dir)
